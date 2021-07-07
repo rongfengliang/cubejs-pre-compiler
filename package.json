@@ -1,0 +1,20 @@
+{
+  "name": "cube-precompile-api-service",
+  "version": "1.0.1",
+  "main": "index.js",
+  "author": "rong fengliang <1141591465@qq.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@cubejs-backend/schema-compiler": "^0.27.47",
+    "@cubejs-backend/shared": "^0.27.47",
+    "fastify": "^3.18.1",
+    "make-promises-safe": "^5.1.0",
+    "ramda": "^0.27.1"
+  },
+  "devDependencies": {
+    "json-schema-generator": "^2.0.6"
+  }
+}
